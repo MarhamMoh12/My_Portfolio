@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="Home.html">Home</a>
+            </li>
+            <li>
+                <a href="Skills.html">Skills</a>
+            </li>
+            <li>
+                <a href="Aboutme.html">About Me</a>
+            </li>
+            <li>
+                <a href="Contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="Gallery.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="Contact">
+        <h1>Contact Me</h1>
+    
+        <!-- Contact Links -->
+        <div class="contact-links">
+            <a href="tel:+251913709887">Call us: +251913709887</a><br />
+            <a href="tel:+251920028558">Call us: +251920028558</a><br />
+            <a href="mailto:Anamarham77@gmail.com">Send an Email</a><br />
+            <a href="https://www.linkedin.com/in/hussien-mohammed-899083214" target="_blank">Connect With LinkedIn</a>
+        </div>
+    
+        <!-- Contact Form -->
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Send Message</button>
+            <p id="formMessage" class="form-message"></p>
+        </form>
+    </section>
+    
+    
+    <footer>
+        <div class="footerContainer">
+            <div class="SocialIcons">
+                <a href="https://www.facebook.com/abu.umeyr.7" target="_blank"><i class="fa-brand fa-facebook"></i></a>
+                <a href="https://www.instagram.com/marhammoh123" target="_blank"><i class="fa-brand fa-instagram"></i></a>
+                <a href="https://x.com/MarhamMoh?t=ktMqnwUOLBlyZ6bLHt6pyA&s=35" target="_blank"><i class="fa-brand fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/hussien-mohammed-899083214" target="_blank"><i class="fa-brand fa-linkedin"></i></a>
+           </div>
+           <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Hussien</span></p>
+           </div>
+    
+    </footer>
+</body>
+</html>
